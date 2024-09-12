@@ -15,7 +15,8 @@ export default function ContactForm() {
         .then(
           () => {
             console.log("SUCCESS!");
-            e.currentTarget.reset();
+            alert("Message sent successfully!");
+            form.current?.reset();
           },
           (error) => {
             console.log("FAILED...", error.text);

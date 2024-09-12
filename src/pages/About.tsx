@@ -16,7 +16,7 @@ function About() {
       <div className="relative w-2/3 h-screen bg-teal-700">
         <div className="absolute -right-48 my-48 rounded-full w-96 h-96 shadow-2xl border-2 border-teal-500">
           <img
-            src="/profilepic.jpg"
+            src="profilepic.jpg"
             alt="profile picture"
             className="rounded-full w-auto h-auto"
             sizes="50vw"

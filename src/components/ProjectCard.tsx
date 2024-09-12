@@ -130,7 +130,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ card }) => {
       <div className="flex flex-col">{headline}</div>
 
       <img
-        src={"/" + card + ".png"}
+        src={card + ".png"}
         alt="project"
         className="rounded-xl m-auto"
         width={348}

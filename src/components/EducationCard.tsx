@@ -41,7 +41,6 @@ const EducationCard: React.FC<EducationCardProps> = ({ card }) => {
       <div className="flex flex-row gap-4">
         <img
           src={
-            "/" +
             school +
             (school.includes("Instituto") ? ".png" : ".svg")
           }

@@ -103,7 +103,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ card }) => {
       });
 
       linkdemo = "https://quizzes-tutor.tecnico.ulisboa.pt/student/dashboard";
-      linkcode = "https://github.com/eduvedras/Projeto-ES-21-22";
+      linkcode = "https://github.com/eduvedras/Quizzes-Tutor-ES-2022";
       break;
     case "Overcooked":
       headline.push(

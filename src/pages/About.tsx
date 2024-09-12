@@ -37,7 +37,7 @@ function About() {
             className="fa-button"
           />
           <FaFile
-            onClick={() => (location.href = "/Eduardo_Miranda.pdf")}
+            onClick={() => (location.href = "Eduardo_Miranda.pdf")}
             className="fa-button"
           />
         </div>

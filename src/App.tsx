@@ -3,8 +3,8 @@ import Navbar from './components/Navbar.tsx'
 import Skills from './pages/Skills.tsx'
 import Education from './pages/Education.tsx'
 import Projects from './pages/Projects.tsx'
-//import Contact from './pages/Contact.tsx'
-//import Footer from './pages/Footer.tsx'
+import Contact from './pages/Contact.tsx'
+import Footer from './pages/Footer.tsx'
 
 function App() {
   return (
@@ -16,6 +16,8 @@ function App() {
           <Skills />
           <Education />
           <Projects />
+          <Contact />
+          <Footer />
         </div>
       </div>
     </>
